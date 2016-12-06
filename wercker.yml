@@ -3,5 +3,5 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.15"
-        theme: redlounge
+        theme: hugo-creative-theme
         flags: --buildDrafts=true
