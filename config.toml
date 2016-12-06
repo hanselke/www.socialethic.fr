@@ -1,0 +1,108 @@
+baseurl = "http://www.socialethic.fr/"
+languageCode = "fr-FR"
+title = "Social Ethic Group"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Mireille Girard"
+	description = "La force de l’expérience d’un ex-inspecteur URSSAF Complémentaire de vos Conseils Notre action  uidi e les rapports Cotisant. Inspecteur Garante de con dentialité INTERFACE rigoureuse jusqu’à la MEDIATION Réduction des délais de contrôle et sérénité des équipes"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Social Ethic Group"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Services"
+			portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "L’Expertise Sociale Stratégique au service de vos intérêts"
+		subtitle   = "6, avenue Franklin Delano Roosevelt - 75008 PARIS"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "NOTRE VALEUR AJOUTÉE"
+		description = "La force de l’expérience d’un ex-inspecteur URSSAF Complémentaire de vos Conseils Notre action  uidi e les rapports Cotisant. Inspecteur Garante de con dentialité INTERFACE rigoureuse jusqu’à la MEDIATION Réduction des délais de contrôle et sérénité des équipes"
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Des réponses personnalisées à travers nos différentes missions"
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "AUDIT PRÉALABLE"
+            description = "Protection de votre Trésorerie par un Audit de la Paie"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "ACTIONS POST CONTRÔLE"
+			description = "Véri ez votre Contrôle URSSAF"
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "ACCOMPAGNEMENT PERSONNALISÉ"
+            description = "Pilotage Expert du Contrôle URSSAF"
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "TRANSMISSION D’UN SAVOIR-FAIRE SUR MESURE"
+            description = "3 niveaux de Formation Professionnelle"
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Sign up for our mailing list!"
+
+		[params.aside.button]
+			text = "[insert mailchimp link]"
+			link = "//www.nextaction.co"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "+33 (0) 1 70 915617"
+		fax = "+33 (0) 1 70 915566"
+		email = "contact@socialethic.fr"
+		address = "6 Avenue Franklin Delano Roosevelt, 75008 Paris, France"
+
+	# Google Maps section
+	 #[params.location]
+	 #	latitude  = "6 Avenue Franklin Delano Roosevelt, 75008 Paris"
+	 ##	maps_api_key = "AIzaSyCfvq_ZfX8g3pqyKzexwBxdfso-8FVCfiI"
