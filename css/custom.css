@@ -1,0 +1,70 @@
+/* Custom CSS */
+
+
+
+
+/* Start Nav Bar Overrides */
+
+	.logo-container {
+		
+		text-align: center;
+		
+	}
+
+	.navbar-brand {
+		
+		display: block;
+		float: none;
+		height: auto;
+		padding: 0 15px;
+		margin: 0 !important;
+		
+	}
+	
+	.navbar-brand img {
+		
+		margin: 5px auto 0;
+	<!--	width: 150px; -->
+		
+	}
+	
+	.navbar-nav {
+		
+		display: block;
+		float: none;
+		text-align: center;
+		
+	}
+	
+	.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+		
+		color: #222222;
+		
+	}
+
+	.navbar-nav > li {
+	
+		display: inline-block;
+		float: none;
+		vertical-align: middle;
+	
+	}
+	
+	header .header-content .header-content-inner {
+		
+		padding-top: 60px;
+		
+	}
+
+
+/* End Nav Bar Overrides */
+
+
+.padding-top {
+  padding-top: 260px;
+}
+
+.services-padding-top {
+  padding-top: 60px;
+}
+
