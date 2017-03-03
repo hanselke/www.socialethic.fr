@@ -33,11 +33,9 @@ googleAnalytics = ""
 		brand = "Social Ethic Group"
 
 		[params.navigation.links]
-			about     = "Accueil"
-			expertise = "Notre expertise"
-			services  = "Nos Services"
-			advantages = "Nos Avantages"
-			press = "Biographie"
+			about     = "About"
+			services  = "Services"
+#			portfolio = "Portfolio"
 			contact   = "Contact"
 
 
@@ -51,22 +49,8 @@ googleAnalytics = ""
 
 	# About section
 	[params.about]
-		headline    = "Fluidifie & confidentialité"
-		description1 = "La force de l’expérience d’un ex-inspecteur URSSAF"
-		description2 = "Complémentaire de vos Conseils"
-		description3 = "Notre action  fluidifie les rapports Cotisant/Inspecteur"
-		description4 = "Garante de confidentalite"
-		description5 = "INTERFACE rigoureuse jusqu’à la mediation"
-		description6 = "Réduction des délais de contrôle et sérénité des équipes"
-
-
-
-		buttonText  = "Get started!"
-
-	# expertise section
-	[params.expertise ]
-		headline    = "expertise"
-		description = "expertise"
+		headline    = "NOTRE VALEUR AJOUTÉE"
+		description = "La force de l’expérience d’un ex-inspecteur URSSAF Complémentaire de vos Conseils Notre action  uidi e les rapports Cotisant. Inspecteur Garante de con dentialité INTERFACE rigoureuse jusqu’à la MEDIATION Réduction des délais de contrôle et sérénité des équipes"
 		buttonText  = "Get started!"
 
 
@@ -82,7 +66,7 @@ googleAnalytics = ""
         [[params.services.list]]
 			icon = "fa-ambulance"
 			title = "ACTIONS POST CONTRÔLE"
-			description = "Vérifiez votre Contrôle URSSAF"
+			description = "Véri ez votre Contrôle URSSAF"
 
 		[[params.services.list]]
             icon = "fa-users"
@@ -95,20 +79,6 @@ googleAnalytics = ""
             description = "3 niveaux de Formation Professionnelle"
 
 
-
-	# Service advantages
-	[params.advantages]
-		headline = "Des réponses personnalisées à travers nos différentes missions"
-
-
-	# press section
-	[params.press]
-		headline    = "press"
-		description = "press"
-		buttonText  = "Get started!"
-
-
-
     # Portfolio modals
 #	[params.portfolio.modal]
 #        client = "Client"
@@ -118,16 +88,16 @@ googleAnalytics = ""
 
     # Aside section
 	[params.aside]
-		headline = "Souscrire a notre mailing list"
+		headline = "Sign up for our mailing list!"
 
 		[params.aside.button]
-			text = "Souscrire"
+			text = "[insert mailchimp link]"
 			link = "//www.nextaction.co"
 
 	# Contact section
 	[params.contact]
-		headline = "Contactez - Nous"
-	#	description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
 		phone = "+33 (0) 1 70 915617"
 		fax = "+33 (0) 1 70 915566"
 		email = "contact@socialethic.fr"
