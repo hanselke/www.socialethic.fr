@@ -51,9 +51,10 @@
 // code for disappearing-top
 
 $(window).scroll(function() {
+    console.log($(this).scrollTop());
     if ($(this).scrollTop() > 150){
         $('#navbar-disappearing-top').fadeOut();
     }else{
-        $('#navbar-disappearing-top,').fadeIn();
+        $('#navbar-disappearing-top').fadeIn();
      }
  });
