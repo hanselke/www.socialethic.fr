@@ -46,3 +46,14 @@
     new WOW().init();
 
 })(jQuery); // End of use strict
+
+
+// code for disappearing-top
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 150){
+        $('#navbar-disappearing-top').fadeOut();
+    }else{
+        $('#navbar-disappearing-top,').fadeIn();
+     }
+ });
