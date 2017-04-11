@@ -13,7 +13,7 @@
 
 	.navbar-brand {
 		
-		display: block;
+		display: flex;
 		float: none;
 		height: auto;
 		padding: 0 15px;
