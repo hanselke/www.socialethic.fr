@@ -11,13 +11,14 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
-    max-width: 50px;
-    border-color: #072c4c;
+    max-width: 420px;
+    border-color: #051121;
     border-width: 3px;
+    margin-left: 0px;
 }
 
 hr.light {
@@ -25,7 +26,7 @@ hr.light {
 }
 
 a {
-    color: #072c4c;
+    color: #051121;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,16 +34,16 @@ a {
 
 a:hover,
 a:focus {
-    color: #072c4c;
+    color: #051121;
 }
 
 #about a {
-    color: #072c4c;
+    color: #051121;
 }
 
 #about a:hover,
 #about a:focus {
-    color: #072c4c;
+    color: #051121;
 }
 
 h1,
@@ -61,7 +62,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #072c4c;
+    background-color: #051121;
 }
 .bg-dark {
     color: #fff;
@@ -97,12 +98,12 @@ aside {
     text-transform: uppercase;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
-    color: #072c4c;
+    color: #051121;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #072c4c;
+    color: #051121;
 }
 
 .navbar-default .nav > li>a,
@@ -162,7 +163,7 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #072c4c;
+        color: #051121;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -177,7 +178,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #072c4c;
+        color: #051121;
     }
 }
 
@@ -200,6 +201,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    color: #051121;
 }
 
 header .header-content .header-content-inner h1 {
@@ -217,7 +219,6 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
 }
 
 @media(min-width:768px) {
@@ -408,9 +409,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #897a56;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #897a56;
 }
 
 .btn-primary:active,

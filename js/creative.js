@@ -50,11 +50,19 @@
 
 // code for disappearing-top
 
+var scrollfired = false;
 $(window).scroll(function() {
-    console.log($(this).scrollTop());
-    if ($(this).scrollTop() > 150){
+    //console.log($(this).scrollTop());
+    if ($(this).scrollTop() > 150 && scrollfired === false){
         $('#navbar-disappearing-top').fadeOut();
+        $('#navbar-appearing-top').toggleClass('hidden');
+        scrollfired = true;
     }else{
-        $('#navbar-disappearing-top').fadeIn();
+       // $('#navbar-disappearing-top').fadeIn();
+       // $('#navbar-appearing-top').fadeOut();
      }
  });
+
+
+
+
