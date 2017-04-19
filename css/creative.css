@@ -182,6 +182,7 @@ aside {
     }
 }
 
+
 header {
     position: relative;
     width: 100%;
@@ -195,6 +196,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+
 
 header .header-content {
     position: relative;
